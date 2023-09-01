@@ -31,7 +31,8 @@
 			#myImg5:hover {opacity: 0.7;}
 			#myImg6 {border-radius: 5px;cursor: pointer;transition: 0.3s;}
 			#myImg6:hover {opacity: 0.7;}
-		
+			#myImg7 {border-radius: 5px;cursor: pointer;transition: 0.3s;}
+			#myImg7:hover {opacity: 0.7;}
 			/* 弹窗背景 */
 			.modal {
 				display: none; /* Hidden by default */
@@ -139,10 +140,11 @@
 							
 													<div class="col-4"><span class="image fit"><img id="myImg1" src="images/News/230914YuxiangWeng.jpg" alt="" /><h4>Quantum effects in the phptosynthenic process By Yuxiang Weng</h4></span></div>																												
 													<div class="col-4"><span class="image fit"><img id="myImg2" src="images/News/230904DongpingZhong.jpg" alt="" /><h4>Ultrafast Biological Dynamics for Protein Properties and Functions By Dongping Zhong</h4></span></div>
-													<div class="col-4"><span class="image fit"><img id="myImg3" src="images/News/230629FengGai.jpg" alt="" /><h4>Spectroscopic Study of Protein Structure and Dynamics By Prof.Feng Gai</h4></span></div>							
+													<div class="col-4"><span class="image fit"><img id="myImg3" src="images/News/230822Wen-binLin.jpg" alt="" /><h4>Metal-Organic Frameworks for Sustainability and HumanHealth By Wen-bin Lin</h4></span></div>							
 													<!-- Break -->
-													<div class="col-4"><span class="image fit"><img id="myImg4" src="images/News/230518HongmeiSu.jpg" alt="" /><h4>Enhancing the Photolabile Character of DNA/RNA Building Blocks: Ultrafast and Time-Resovled Spectroscopy Studies By Prof. Hongmei Su</h4></span></div>																												
-													<div class="col-4"><span class="image fit"><img id="myImg5" src="images/News/230331XuemingYang.jpg" alt="" /><h4>Quantum Nature of Chemical Reactivity By Xueming Yang</h4></span></div>
+													<div class="col-4"><span class="image fit"><img id="myImg4" src="images/News/230626FengGai.jpg" alt="" /><h4>Spectroscopic Study of Protein Structure and Dynamics By Prof.Feng Gai</h4></span></div>							
+													<div class="col-4"><span class="image fit"><img id="myImg5" src="images/News/230518HongmeiSu.jpg" alt="" /><h4>Enhancing the Photolabile Character of DNA/RNA Building Blocks: Ultrafast and Time-Resovled Spectroscopy Studies By Prof. Hongmei Su</h4></span></div>																												
+													<div class="col-4"><span class="image fit"><img id="myImg6" src="images/News/230331XuemingYang.jpg" alt="" /><h4>Quantum Nature of Chemical Reactivity By Xueming Yang</h4></span></div>
 													<!-- Break -->
 
 										<!-- 触发弹窗 - 图片改为你的图片地址<img id="myImg1" src="images/News/230331XuemingYang.jpg" alt="" width="400" height="300"> -->	
@@ -165,7 +167,7 @@
 									<div class="box alt">
 										<div class="row gtr-50 gtr-uniform">
 							
-													<div class="col-4"><span class="image fit"><img id="myImg6" src="images/News/221103Dong-HuiQuan.jpg" alt="" /><h4>Modeling Studies of Interstellar Prebiotic Molecules By Prof.Dong-Hui Quan</h4></span></div>																												
+													<div class="col-4"><span class="image fit"><img id="myImg7" src="images/News/221103Dong-HuiQuan.jpg" alt="" /><h4>Modeling Studies of Interstellar Prebiotic Molecules By Prof.Dong-Hui Quan</h4></span></div>																												
 													<!-- Break -->
 													
 										<!-- 触发弹窗 - 图片改为你的图片地址<img id="myImg1" src="images/News/230331XuemingYang.jpg" alt="" width="400" height="300"> -->	
@@ -235,7 +237,8 @@
 						img.onclick = function(){modal.style.display = "block";modalImg.src = this.src;captionText.innerHTML = this.alt;}
 						var span = document.getElementsByClassName("close")[0];
 						span.onclick = function() { modal.style.display = "none";}
-					</script><script>						
+					</script>
+					<script>						
 						var modal = document.getElementById('myModal');
 						var img = document.getElementById('myImg5');
 						var modalImg = document.getElementById("img01");
@@ -243,9 +246,19 @@
 						img.onclick = function(){modal.style.display = "block";modalImg.src = this.src;captionText.innerHTML = this.alt;}
 						var span = document.getElementsByClassName("close")[0];
 						span.onclick = function() { modal.style.display = "none";}
-					</script><script>						
+					</script>
+					<script>						
 						var modal = document.getElementById('myModal');
 						var img = document.getElementById('myImg6');
+						var modalImg = document.getElementById("img01");
+						var captionText = document.getElementById("caption");
+						img.onclick = function(){modal.style.display = "block";modalImg.src = this.src;captionText.innerHTML = this.alt;}
+						var span = document.getElementsByClassName("close")[0];
+						span.onclick = function() { modal.style.display = "none";}
+					</script>
+					<script>						
+						var modal = document.getElementById('myModal');
+						var img = document.getElementById('myImg7');
 						var modalImg = document.getElementById("img01");
 						var captionText = document.getElementById("caption");
 						img.onclick = function(){modal.style.display = "block";modalImg.src = this.src;captionText.innerHTML = this.alt;}
